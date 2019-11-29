@@ -26,6 +26,8 @@ flask框架登录模板
   - 创建项目
 
 ## 截图
-### 主页（hello world）
+### 登录
 ![登录](https://github.com/ZhuangleiScut/flask-login/blob/master/app/static/image/%E7%99%BB%E5%BD%95.png)
+
+### 注册
 ![注册](https://github.com/ZhuangleiScut/flask-login/blob/master/app/static/image/%E6%B3%A8%E5%86%8C.png)
