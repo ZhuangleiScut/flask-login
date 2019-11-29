@@ -27,4 +27,5 @@ flask框架登录模板
 
 ## 截图
 ### 主页（hello world）
-![主页](https://github.com/ZhuangleiScut/flask-init/blob/master/app/static/%E6%88%AA%E5%9B%BE.png)
+![登录](https://github.com/ZhuangleiScut/flask-login/blob/master/app/static/image/%E7%99%BB%E5%BD%95.png)
+![注册](https://github.com/ZhuangleiScut/flask-login/blob/master/app/static/image/%E6%B3%A8%E5%86%8C.png)
