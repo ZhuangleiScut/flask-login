@@ -5,6 +5,7 @@ from . import user
 from flask import render_template, redirect, request, url_for, current_app, abort, jsonify, session
 from flask_login import login_user, logout_user, current_user, login_required
 from datetime import datetime
+from ..utils.utils import generate_password, clear_session_cookie
 
 
 @user.route('/reg/', methods=['GET', 'POST'])
