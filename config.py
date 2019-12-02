@@ -26,6 +26,11 @@ class Config:
     FLASKY_COMMENTS_PER_PAGE = 30
     FLASKY_SLOW_DB_QUERY_TIME = 0.5
 
+    # 头像的存储路径与默认头像路径
+    AVATAR_PATH = 'static/upload/avatar/'
+    AVATAR_FOLDER = os.path.join(basedir, 'APP/', AVATAR_PATH)
+    DEFAULT_AVATAR = '/static/resource/img/none.jpg'
+
     @staticmethod
     def init_app(app):
         pass

@@ -76,7 +76,7 @@ def load_user(user_id):
 class Log(db.Model):
     __tablename__ = 'log'
     id = db.Column(db.Integer, primary_key=True)
-    userId = db.Column(db.Integer, db.ForeignKey('user.id'))  # 操作涉及的用户
+    userId = db.Column(db.Integer, db.ForeignKey('users.id'))  # 操作涉及的用户
     content = db.Column(db.Text(), nullable=False)  # 操作的主要内容
     """
     type_flag 用于记录操作类型:0代表普通操作如登录等,1代表,2代表,3代表
