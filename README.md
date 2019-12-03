@@ -1,5 +1,5 @@
 # flask框架登录模板
-flask框架登录模板
+flask框架登录模板，在flask-init框架的基础上，增加了用户登录注册功能。
 
 ## Features
 **1、初始化：**
