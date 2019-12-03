@@ -15,7 +15,11 @@ flask框架登录模板，在flask-init框架的基础上，增加了用户登�
  - [x] 密码校验
 
 ## 使用
-**1、依赖**
+**1、依赖** 
+
+一键安装依赖：
+```pip install -r requirements.txt```
+
  - flask_script
  - flask_migrate
  - flask_login
